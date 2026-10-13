@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты и Запись — Мозаика развития</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <img
+            src="only_brain_from_logo.png"
+            alt="Логотип"
+            class="brand-logo"
+          />
+          <img
+            src="text_from_logo.png"
+            alt="Мозаика развития"
+            class="brand-text"
+          />
+        </a>
+        <button class="burger-btn" aria-label="Открыть меню" id="burgerBtn">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-menu" id="navMenu">
+          <a href="index.html">Главная</a>
+          <a href="about.html">Обо мне</a>
+          <a href="services.html">Услуги</a>
+          <a href="articles.html">Статьи</a>
+          <a href="contacts.html" class="active">Контакты</a>
+        </nav>
+        <!-- <a href="contacts.html#booking" class="btn btn-small header-btn">Записаться</a> -->
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero">
+        <div class="container text-center">
+          <span class="section-subtitle">Свяжитесь со мной</span>
+          <h1>Контакты и запись на консультацию</h1>
+          <p class="subtitle">
+            Вы можете написать мне в мессенджерах.
+          </p>
+        </div>
+      </section>
+
+      <section class="contacts-section">
+        <div class="container">
+          <div class="contacts-grid">
+            <!-- Левая колонка: Контактные данные и прямой переход -->
+            <div class="contact-card-box">
+              <h2>Контактная информация</h2>
+              <p class = "info-note">
+                Выберите удобный способ связи, чтобы задать вопрос или
+                записаться на консультацию:
+              </p>
+
+              <div class="contact-detail-item">
+                <span class="icon">💬</span>
+                <div>
+                  <strong>Быстрая связь в мессенджерах:</strong>
+                  <p class="small-text">Отвечаю в течение рабочего дня</p>
+                  <div class="messengers-buttons">
+                    <a
+                      href="https://t.me/Stura25"
+                      target="_blank"
+                      class="btn btn-social telegram"
+                    >
+                      Написать в Telegram
+                    </a>
+                    <a
+                      href="https://vk.ru/nastenkasavchuk"
+                      target="_blank"
+                      class="btn btn-social VK"
+                    >
+                      Написать в Вконтакте
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <span class="icon">📞</span>
+                <div>
+                  <strong>Телефон:</strong>
+                  <a href="tel:+79159689818" class="phone-link"
+                    >+7 (915) 968-98-18</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Правая колонка: Как проходит первая встреча (Полезная информация вместо формы) -->
+            <div class="process-card-box">
+              <h2>Как проходит запись и первая встреча</h2>
+
+              <div class="process-steps">
+                <div class="process-step">
+                  <div class="step-num">1</div>
+                  <div class="step-info">
+                    <h3 class="step-num">Первый контакт</h3>
+                    <p>
+                      Вы пишете мне в Telegram или Вконтакте, кратко описываете
+                      возраст ребёнка и ваш запрос.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="process-step">
+                  <div class="step-num">2</div>
+                  <div class="step-info">
+                    <h3 class="step-num">Согласование времени</h3>
+                    <p>
+                      Мы подбираем удобный день и время для консультации или
+                      первичной диагностики.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="process-step">
+                  <div class="step-num">3</div>
+                  <div class="step-info">
+                    <h3 class="step-num">Первичная консультация</h3>
+                    <p>
+                      Встреча проходит в мягкой игровой форме (для детей) и
+                      доверительном диалоге (для родителей).
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-note">
+                📌 <strong>Длительность приёма:</strong> 45 – 50 минут.<br />
+                Формат только онлайн.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner text-center">
+        <p>© 2026 Мозаика развития — Савчук Анастасия. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

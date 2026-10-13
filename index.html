@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мозаика развития — Савчук Анастасия | Педагог-психолог</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <img src="only_brain_from_logo.png" alt="Логотип" class="brand-logo">
+                <img src="text_from_logo.png" alt="Мозаика развития" class="brand-text">
+            </a>
+
+            <!-- Кнопка мобильного меню -->
+            <button class="burger-btn" aria-label="Открыть меню" id="burgerBtn">
+                <span></span><span></span><span></span>
+            </button>
+
+            <!-- Навигация -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="active">Главная</a>
+                <a href="about.html">Обо мне</a>
+                <a href="services.html">Услуги</a>
+                <a href="articles.html">Статьи</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+
+            <!-- <a href="contacts.html#booking" class="btn btn-small header-btn">Записаться</a> -->
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">Педагог-психолог • Нейропсихологический подход</span>
+            <h1>Вырабатываем навыки.<br>Собираем будущее.</h1>
+            <p class="subtitle">Помогаю детям развиваться с удовольствием, а родителям — находить взаимопонимание и гармонию в семье.</p>
+            <div class="hero-action">
+                <a href="contacts.html#booking" class="btn btn-primary">Записаться на встречу</a>
+                <a href="services.html" class="btn btn-outline">Услуги и направления</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Краткий блок "Обо мне" -->
+    <section class="about-preview">
+        <div class="container about-inner">
+            <div class="photo-frame">
+                <img src="portrait.jpg" alt="Савчук Анастасия">
+            </div>
+            <div class="about-text">
+                <span class="section-subtitle">Обо мне</span>
+                <h2>Савчук Анастасия</h2>
+                <p class="lead-text">Каждый ребёнок — это уникальная мозаика. </p>
+                <p class="lead-text"> Моя задача — помочь собрать её элементы в единую гармоничную картину. </p>
+                <p class="principle-card-text-p">В своей практике я использую мягкие методики арт-терапии, игровые развивающие техники и нейропсихологические упражнения.</p>
+                <a href="about.html" class="link-more">Читать подробнее о моём опыте и подходе &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярные услуги -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Помощь и поддержка</span>
+                <h2 class="section-title">Основные направления</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3 class="principle-card-text-h3">Развивающие занятия</h3>
+                    <p class="principle-card-text-p">Игровые и нейропсихологические сессии для развития внимания, памяти, речи и самоконтроля.</p>
+                    <a href="services.html" class="card-link">Узнать подробнее</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                    </div>
+                    <h3 class="principle-card-text-h3">Готовность к школе</h3>
+                    <p class="principle-card-text-p">Диагностика и подготовка мышления, мотивации и эмоционально-волевой сферы к первому классу.</p>
+                    <a href="services.html" class="card-link">Узнать подробнее</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 1 0 7.75"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3 class="principle-card-text-h3">Консультации родителей</h3>
+                    <p class="principle-card-text-p">Ответы на вопросы воспитания, преодоление детских капризов, страхов и семейных кризисов.</p>
+                    <a href="services.html" class="card-link">Узнать подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Свежие статьи (Превью блога) -->
+    <section class="articles-preview">
+        <div class="container">
+            <div class="section-header flex-header">
+                <div>
+                    <span class="section-subtitle">Полезные материалы</span>
+                    <h2 class="section-title">Новое в блоге</h2>
+                </div>
+                <a href="articles.html" class="btn btn-outline">Все статьи</a>
+            </div>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <div class="article-badge">Родителям</div>
+                    <div class="article-body">
+                        <span class="article-date">5 октября 2026 • 5 мин чтения</span>
+                        <h3>Как помочь ребёнку справиться с адаптацией в детском саду или школе</h3>
+                        <p>Практические советы и успокаивающие ритуалы для родителей при кризисах адаптации...</p>
+                        <a href="article-single.html" class="card-link">Читать статью &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-badge">Развитие</div>
+                    <div class="article-body">
+                        <span class="article-date">28 сентября 2026 • 4 мин чтения</span>
+                        <h3>5 нейроигр для дома, которые развивают внимание и память</h3>
+                        <p>Простые и весёлые упражнения с подручными предметами без экранов и гаджетов...</p>
+                        <a href="article-single.html" class="card-link">Читать статью &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-info">
+                <h2>Давайте собирать будущее вместе</h2>
+                <p>Запишитесь на первую консультацию или задайте вопрос в мессенджерах</p>
+                <div class="social-buttons">
+                    <a href="https://t.me/Stura25" class="social-btn telegram" target="_blank">Telegram</a>
+                    <a href="https://vk.ru/nastenkasavchuk" class="social-btn whatsapp" target="_blank">Вконтакте</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-bar">
+            <p>© 2026 Мозаика развития — Савчук Анастасия. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

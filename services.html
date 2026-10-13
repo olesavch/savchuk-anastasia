@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги и цены — Мозаика развития</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <img src="only_brain_from_logo.png" alt="Логотип" class="brand-logo">
+                <img src="text_from_logo.png" alt="Мозаика развития" class="brand-text">
+            </a>
+            <button class="burger-btn" aria-label="Открыть меню" id="burgerBtn">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html">Главная</a>
+                <a href="about.html">Обо мне</a>
+                <a href="services.html" class="active">Услуги</a>
+                <a href="articles.html">Статьи</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+            <!-- <a href="contacts.html#booking" class="btn btn-small header-btn">Записаться</a> -->
+        </div>
+    </header>
+
+    <main class="page-main">
+        <section class="page-hero">
+            <div class="container text-center">
+                <span class="section-subtitle">Индивидуальный подход</span>
+                <h1>Услуги и консультации</h1>
+                <p class="subtitle">Работаем бережно, поэтапно и на результат.</p>
+                <p class="subtitle">*В разработке*.</p>
+            </div>
+        </section>
+
+        <!-- Интерактивный блок FAQ (Частые вопросы) -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title text-center">Часто задаваемые вопросы</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Как проходит первая консультация?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Первая встреча проходит с родителями (или родителями вместе с ребёнком). Мы разбираем волнующий вопрос, проводим первичную бесіду и составляем план дальнейшей работы.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            С какого возраста вы принимаете детей?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Я работаю с детьми от 3 до 12 лет, а также провожу консультации для родителей детей любого возраста.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Возможны ли онлайн-консультации?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Да, индивидуальные консультации для родителей и диагностические встречи можно проводить онлайн в формате видеосвязи.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner text-center">
+            <p>© 2026 Мозаика развития. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

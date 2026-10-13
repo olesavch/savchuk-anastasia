@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статьи и материалы — Мозаика развития</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <img src="only_brain_from_logo.png" alt="Логотип" class="brand-logo">
+                <img src="text_from_logo.png" alt="Мозаика развития" class="brand-text">
+            </a>
+            <button class="burger-btn" aria-label="Открыть меню" id="burgerBtn">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html">Главная</a>
+                <a href="about.html">Обо мне</a>
+                <a href="services.html">Услуги</a>
+                <a href="articles.html" class="active">Статьи</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+            <!-- <a href="contacts.html#booking" class="btn btn-small header-btn">Записаться</a> -->
+        </div>
+    </header>
+
+    <main class="page-main">
+        <section class="page-hero">
+            <div class="container text-center">
+                <span class="section-subtitle">Блог педагога-психолога</span>
+                <h1>Статьи и полезные материалы</h1>
+                <p class="subtitle">Ответы на частые вопросы о детском развитии, эмоциях, нейроиграх и воспитании.</p>
+            </div>
+        </section>
+
+        <section class="articles-section">
+            <div class="container">
+                <!-- Интерактивные фильтры по категориям -->
+                <div class="filter-tabs" id="filterTabs">
+                    <button class="filter-btn active" data-category="all">Все статьи</button>
+                    <button class="filter-btn" data-category="parents">Родителям</button>
+                    <button class="filter-btn" data-category="neuro">Нейропсихология</button>
+                    <button class="filter-btn" data-category="school">Подготовка к школе</button>
+                </div>
+
+                <!-- Сетевой список статей -->
+                <div class="articles-grid" id="articlesGrid">
+                    
+                    <article class="article-card" data-category="parents">
+                        <div class="article-badge">Родителям</div>
+                        <div class="article-body">
+                            <span class="article-date">5 октября 2026 • 5 мин чтения</span>
+                            <h3>Как помочь ребёнку справиться с адаптацией в детском саду</h3>
+                            <p>Практические советы и мягкие арт-техники для снижения тревожности при смене обстановки.</p>
+                            <a href="article-single.html" class="card-link">Читать далее &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="neuro">
+                        <div class="article-badge">Нейропсихология</div>
+                        <div class="article-body">
+                            <span class="article-date">5 октября 2026 • 5 мин чтения</span>
+                            <h3>Как помочь ребёнку справиться с адаптацией в детском саду</h3>
+                            <p>Практические советы и мягкие арт-техники для снижения тревожности при смене обстановки.</p>
+                            <a href="article-single.html" class="card-link">Читать далее &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="school">
+                        <div class="article-badge">Подготовка к школе</div>
+                        <div class="article-body">
+                            <span class="article-date">5 октября 2026 • 5 мин чтения</span>
+                            <h3>Как помочь ребёнку справиться с адаптацией в детском саду</h3>
+                            <p>Практические советы и мягкие арт-техники для снижения тревожности при смене обстановки.</p>
+                            <a href="article-single.html" class="card-link">Читать далее &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="parents">
+                        <div class="article-badge">Родителям</div>
+                        <div class="article-body">
+                            <span class="article-date">5 октября 2026 • 5 мин чтения</span>
+                            <h3>Как помочь ребёнку справиться с адаптацией в детском саду</h3>
+                            <p>Практические советы и мягкие арт-техники для снижения тревожности при смене обстановки.</p>
+                            <a href="article-single.html" class="card-link">Читать далее &rarr;</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner text-center">
+            <p>© 2026 Мозаика развития. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
