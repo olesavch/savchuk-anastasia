@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RBJZE56QLG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RBJZE56QLG");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты и Запись — Мозаика развития</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <img
+            src="only_brain_from_logo.png"
+            alt="Логотип"
+            class="brand-logo"
+          />
+          <img
+            src="text_from_logo.png"
+            alt="Мозаика развития"
+            class="brand-text"
+          />
+        </a>
+        <button class="burger-btn" aria-label="Открыть меню" id="burgerBtn">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-menu" id="navMenu">
+          <a href="index.html">Главная</a>
+          <a href="about.html">Обо мне</a>
+          <a href="services.html">Услуги</a>
+          <a href="articles.html">Статьи</a>
+          <a href="program.html" class="active">Программы</a>
+          <a href="contacts.html">Контакты</a>
+        </nav>
+        <!-- <a href="contacts.html#booking" class="btn btn-small header-btn">Записаться</a> -->
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero">
+        <div class="container text-center">
+          <span class="section-subtitle"
+            >Профессиональная деятельность педагога-психолога</span
+          >
+          <h1>Авторские программы</h1>
+        </div>
+      </section>
+
+      <section class="articles-section">
+        <div class="container">
+          <!-- Интерактивные фильтры по категориям -->
+          <div class="filter-tabs" id="filterTabs">
+            <button class="filter-btn active" data-category="all">
+              Все программы
+            </button>
+            <button class="filter-btn" data-category="parents">
+              Индивидуальные программы
+            </button>
+            <button class="filter-btn" data-category="neuro">
+              Групповые программы
+            </button>
+            <button class="filter-btn" data-category="school">Тренинги</button>
+            <button class="filter-btn" data-category="report">Доклады</button>
+          </div>
+
+          <!-- Сетевой список статей -->
+          <div class="articles-grid" id="articlesGrid">
+            <article class="article-card" data-category="parents">
+              <div class="article-badge">Индивидуальные программы</div>
+              <div class="article-body">
+                <span class="article-date">20 октября 2026</span>
+                <h3>
+                  «Я могу!»: коррекция эмоционально-личностной сферы, повышение
+                  учебной мотивации и развитие мыслительных операций у
+                  обучающегося 7 класса с ОВЗ
+                </h3>
+                <p>
+                  Программа направлена на комплексное психолого-педагогическое 
+                  сопровождение подростка и реализуется в рамках коррекционно-развивающей области адаптивной основной образовательной программы.
+                </p>
+                <a href="programs-html\program-ya-mogu-7-class-ovz.html" class="card-link"
+                  >Читать далее &rarr;</a
+                >
+              </div>
+            </article>
+
+            <article class="article-card" data-category="report">
+              <div class="article-badge">Доклад</div>
+              <div class="article-body">
+                <span class="article-date">17 апреля 2025</span>
+                <h3>
+                  Подростковый буллинг и методы борьбы с ним в условиях организации "Детский Дом"
+                </h3>
+                <p>
+                  Доклад посвящен анализу причин и специфики подросткового буллинга в закрытых учреждениях. 
+                  В работе представлены эффективные методы профилактики травли, 
+                  а также практические рекомендации для педагогов и психологов по созданию безопасной среды.
+                </p>
+                <a href="programs-html\bulling-v-detskom-dome.html" class="card-link"
+                  >Читать далее &rarr;</a
+                >
+              </div>
+            </article>
+
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner text-center">
+        <p>© 2026 Мозаика развития — Савчук Анастасия. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
